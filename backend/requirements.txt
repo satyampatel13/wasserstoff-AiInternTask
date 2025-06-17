@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pytesseract
+pdf2image
+PyMuPDF
+chromadb
+langchain
+langchain-community
+huggingface-hub
+sentence-transformers
+groq
+python-dotenv
+requests
+tqdm
+pydantic
