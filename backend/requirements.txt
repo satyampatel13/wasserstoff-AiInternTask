@@ -13,3 +13,4 @@ python-dotenv
 requests
 tqdm
 pydantic
+python-multipart
