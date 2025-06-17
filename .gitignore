@@ -15,6 +15,9 @@ backend/data/chroma/
 *.db
 *.DS_Store
 
+backend/backend/data/chroma/*
+backend/backend/data/*.pdf
+
 # Uploaded raw files
 backend/data/*.pdf
 backend/data/*.png
