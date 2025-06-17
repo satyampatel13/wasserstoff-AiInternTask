@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import os
 
-API_URL = "http://localhost:8000"
+API_URL = "https://wasserstoff-backend-l57n.onrender.com"
 UPLOAD_URL = f"{API_URL}/upload/"
 QUERY_URL = f"{API_URL}/query/"
 
