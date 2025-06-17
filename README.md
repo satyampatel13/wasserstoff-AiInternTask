@@ -1,5 +1,5 @@
 ```markdown
-# AI Internship Task - Wasserstoff Labs
+## AI Internship Task - Wasserstoff Labs
 
 This project is a document-based intelligent QA system built as part of the Wasserstoff AI Internship Task.
 
@@ -7,15 +7,15 @@ It allows users to upload multiple documents (PDFs, images, or text files), ask 
 
 ---
 
-## 🧠 Features
+### Features
 
-- ✅ Upload 75+ files (PDF, image, or text)
-- ✅ Extract content using OCR (Tesseract) and parsing
-- ✅ Store text as embeddings using ChromaDB
-- ✅ Use Groq's LLaMA 3 API to answer questions
-- ✅ Return both document-wise and theme-wise responses
-- ✅ Clean, simple Streamlit web interface
-- ✅ Fully deployed using Railway (backend) and Streamlit Cloud (frontend)
+-  Upload 75+ files (PDF, image, or text)
+-  Extract content using OCR (Tesseract) and parsing
+-  Store text as embeddings using ChromaDB
+-  Use Groq's LLaMA 3 API to answer questions
+-  Return both document-wise and theme-wise responses
+-  Clean, simple Streamlit web interface
+-  Fully deployed using Railway (backend) and Streamlit Cloud (frontend)
 
 ---
 
@@ -32,7 +32,7 @@ It allows users to upload multiple documents (PDFs, images, or text files), ask 
 
 ---
 
-## 📁 Folder Structure
+### Folder Structure
 
 ```
 
@@ -50,25 +50,25 @@ chatbot\_theme\_identifier/
 
 ---
 
-## 🌐 Live Demo Links
+### Live Demo Links
 
-- 🔗 **Frontend (Streamlit):** [Click to Open](https://wasserstoff-aiinterntask-sp.streamlit.app)
-- 🔗 **Backend (FastAPI Swagger):** [Click to Open](https://wasserstoff-backend.up.railway.app/docs)
+-  **Frontend (Streamlit):** [Click to Open](https://wasserstoff-aiinterntask-sp.streamlit.app)
+-  **Backend (FastAPI Swagger):** [Click to Open](https://wasserstoff-backend.up.railway.app/docs)
 
 ---
 
-## ⚙️ How It Works
+### How It Works
 
 1. **Upload files** → They are read using OCR and parsed
 2. **Stored in ChromaDB** → Text converted into vector embeddings
 3. **Ask any question** → Relevant docs are found and passed to Groq's LLM
 4. **Response shown**:
-   - 📄 Document-wise answers
-   - 💬 Summary with theme-based grouping
+   - Document-wise answers
+   - Summary with theme-based grouping
 
 ---
 
-## 📽️ Demo Flow (in simple English)
+## Demo Flow (in simple English)
 
 1. I open the web app (Streamlit)
 2. I upload some documents (PDF, image, or text)
@@ -76,14 +76,14 @@ chatbot\_theme\_identifier/
    _“What are the penalties mentioned in the SEBI Act?”_
 4. The system searches all documents and sends relevant info to LLaMA 3
 5. I get:
-   - 📄 Individual document answers
-   - 💬 A summary of the main themes
+   - Individual document answers
+   -  summary of the main themes
 
 6. I also show the backend API using the `/docs` page
 
 ---
 
-## 🙋 About Me
+## About Me
 
 > Name: **Satyam Patel**  
 > Role: AI/ML Intern Applicant  
@@ -92,7 +92,7 @@ chatbot\_theme\_identifier/
 
 ---
 
-## ✅ Notes
+## Notes
 
 - No plagiarism: All code written from scratch
 - Uses open-source tools and APIs
@@ -101,33 +101,8 @@ chatbot\_theme\_identifier/
 
 ---
 
-## 🔚 Thank You
+## Thank You
 
 Thank you Wasserstoff team for the opportunity. I’m excited to join, learn, and contribute to real-world AI solutions.
 
 ```
-
----
-
-## 📌 Next Step:
-
-✅ Add this file to your repo:
-
-```bash
-cd chatbot_theme_identifier
-touch README.md
-# Paste content, save
-git add README.md
-git commit -m "📘 Add final project README for Wasserstoff submission"
-git push origin main
-```
-
----
-
-## 🔜 Want Help With?
-
-* 📦 ZIP your repo for email?
-* 📽️ Demo video recording tips?
-* 📨 Email draft to send to HR?
-
-Just say `"Start karo [task]"` — main next step turant handle kar dunga 💪
