@@ -1,38 +1,27 @@
 # Python cache
 __pycache__/
 *.py[cod]
-*.pyo
 
-# Env files
-.env
+# Virtual environments
 venv/
+.env
 *.env
 
-# Vector DB
+# Vector DB and data
 backend/data/chroma/
-
-# Streamlit & OS
-*.db
-*.DS_Store
-
-backend/backend/data/chroma/*
-backend/backend/data/*.pdf
-
-# Uploaded raw files
 backend/data/*.pdf
 backend/data/*.png
 backend/data/*.jpg
 backend/data/*.jpeg
 backend/data/*.txt
 
-# Logs or temp
+# Mac / Windows / IDE
+.DS_Store
 *.log
 *.tmp
-
-# IDE files
 .vscode/
 .idea/
 
-# Docker-related
-*.dockerfile
-docker-compose.*
+# Streamlit cache
+*.db
+.streamlit/
