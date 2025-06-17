@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Env files
+.env
+venv/
+*.env
+
+# Vector DB
+backend/data/chroma/
+
+# Streamlit & OS
+*.db
+*.DS_Store
+
+# Uploaded raw files
+backend/data/*.pdf
+backend/data/*.png
+backend/data/*.jpg
+backend/data/*.jpeg
+backend/data/*.txt
+
+# Logs or temp
+*.log
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+
+# Docker-related
+*.dockerfile
+docker-compose.*
