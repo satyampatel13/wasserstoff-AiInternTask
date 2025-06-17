@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: wasserstoff_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/data:/app/backend/data
+    environment:
+      - GROQ_API_KEY=your_actual_groq_key
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: wasserstoff_frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
